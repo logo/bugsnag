@@ -1,0 +1,22 @@
+
+/**
+ * Bugsnag
+ */
+
+.logo[data-logo="Bugsnag"] {
+  width: 3.629393939em;
+  /* (8.26/1.98) * (1-.065-.065) - 0 */
+}
+
+.logo[data-logo="Bugsnag"] > * {
+  background-image: url(images/logo.svg);
+  margin: .065em 0 .065em 0;
+}
+
+.logo[data-logo="Bugsnag"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Bugsnag"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
